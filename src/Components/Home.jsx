@@ -11,7 +11,7 @@ function Home() {
 
       <div className="content">
         <h1>
-          <c>eXplore</c> my <d>nft</d> <br />
+          <c>eXplore</c> my  <br />
           collection
         </h1>
 

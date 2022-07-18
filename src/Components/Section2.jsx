@@ -25,13 +25,14 @@ function Details() {
       <div className="text-content">
         <div className="text text1">
           <h1>
-            How i <span>Started</span>
+            About <span>Me</span>
           </h1>
           <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-            alias iusto aut eius animi suscipit exercitationem hic molestias
-            ullam eos facere velit consectetur aliquid sunt. Molestiae
-            perspiciatis autem illum ea.
+            Étudiant en master Ingénierie des Données et Technologie Web à
+            l'Université Ferhat Abbas, j'ai de l'expérience avec un large éventail de
+            langages de programmation et de technologies, j'ai excellé dans mes
+            études grâce à de grandes compétences en résolution de problèmes, en
+            travail d'équipe et en leadership.
           </h2>
         </div>
 
@@ -40,9 +41,16 @@ function Details() {
             <span>Experiences</span> so far
           </h1>
           <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsa
-            libero, ut perferendis repudiandae unde commodi nemo exercitationem
-            corrupti explicabo consequuntur, possimus optio iste velit deserunt.
+          
+            ↪Front-End Coding<br/>
+            ↪Back-End Coding<br />
+            ↪Database administration and website design<br />
+            ↪Build Web Site With Wordpress And Ecommerce<br />
+            ↪Connaissance des API et des webservices.<br />
+            ↪Problem-Solving<br />
+            ↪Project Management Tools<br />
+            ↪Strong Communication
+
           </h2>
         </div>
       </div>

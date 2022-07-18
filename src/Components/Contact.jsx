@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./Contact.css";
-
-import { BsWhatsapp } from "react-icons/bs";
+import { BsGithub, BsWhatsapp } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 
 function Contact() {
   const [active, setactive] = useState(false);
-
   useEffect(() => {
     function scrollAnimation() {
       const animationPoint = 300;
@@ -25,6 +22,7 @@ function Contact() {
     scrollAnimation();
     window.addEventListener("scroll", scrollAnimation);
   }, []);
+
   return (
     <div className={`contact ${active && "active"}`} id="Contact">
       <h1>
@@ -37,14 +35,13 @@ function Contact() {
           <div className="tooltip">whatsapp</div>
         </div>
 
-        <div className="icon" style={{ "--c": "#1d3fff" }}>
+        <div className="icon" style={{ "--c": "#1d3fff" }} onClick={() => window.open("https://web.facebook.com/profile.php?id=100078014927532", "_blank")}>
           <BsFacebook className="social-icons" />
-          <div className="tooltip">facebook</div>
+          <div className="tooltip" >facebook</div>
         </div>
-
-        <div className="icon" style={{ "--c": "#ff5cff" }}>
-          <BsInstagram className="social-icons" />
-          <div className="tooltip">instagram</div>
+        <div className="icon" style={{ "--c": "#ff5cff" }} onClick={() => window.open("https://github.com/BrahimKedjar", "_blank")}>
+          <BsGithub className="social-icons" />
+          <div className="tooltip" >github</div>
         </div>
 
         <div className="icon" style={{ "--c": "#ff0000" }}>
