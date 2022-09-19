@@ -16,7 +16,7 @@ function Header() {
         <h1>Narimen-Kouasmi</h1>
         <span>Portfolio</span>
       </div>
-      <h2>Brahim-kedjar</h2>
+      <h2>Narimen-Kouasmi</h2>
     </header>
   );
 }
