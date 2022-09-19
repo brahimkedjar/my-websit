@@ -13,7 +13,7 @@ function Header() {
   return (
     <header>
       <div className="text">
-        <h1>Brahim_Kedjar</h1>
+        <h1>Narimen-Kouasmi</h1>
         <span>Portfolio</span>
       </div>
       <h2>Brahim-kedjar</h2>
