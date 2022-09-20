@@ -13,10 +13,10 @@ function Header() {
   return (
     <header>
       <div className="text">
-        <h1>Narimen-Kouasmi</h1>
+        <h1>Brahim kedjar</h1>
         <span>Portfolio</span>
       </div>
-      <h2>Narimen-Kouasmi</h2>
+      <h2>Brahim KEdjar</h2>
     </header>
   );
 }
