@@ -23,7 +23,7 @@ function Collection() {
   return (
     <div className={`collection ${active && "active"}`} id="Collection">
       <h1>
-        my <span>ULTIMATE</span> collection
+        My <span>ULTIMATE</span> Home Work
       </h1>
 
       <div className="collections-container">
