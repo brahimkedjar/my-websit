@@ -12,7 +12,7 @@ function Home() {
       <div className="content">
         <h1>
           <c>eXplore</c> my  <br />
-          collection
+          Home Work
         </h1>
 
         <a href="#Collection" className="show-me">
